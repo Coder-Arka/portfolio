@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name - Professional Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Your Name</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#membership">Membership</a></li>
+          <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#presentations">Presentations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="vh-100 d-flex align-items-center bg-light">
+    <div class="container text-center">
+      <h1 class="display-4">Welcome to My Portfolio</h1>
+      <p class="lead">A brief introduction about yourself.</p>
+      <a href="#contact" class="btn btn-primary mt-3">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">About Me</h2>
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-8">
+          <p>My detailed biography about background, hobbies will be written here.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Educational Background -->
+  <section id="education" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4">Educational Background</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <h5>Degree Name</h5>
+          <p>Institution Name, Year</p>
+          <p>Brief description or achievements.</p>
+        </li>
+        <!-- Repeat for other degrees -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Experience</h2>
+      <div class="accordion" id="experienceAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Experience about developing Website
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" 
+               aria-labelledby="headingOne" data-bs-parent="#experienceAccordion">
+            <div class="accordion-body">
+              <p>Websites you have develped and experience you have.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat accordion items for other experiences -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Paper/Patent Publications -->
+  <section id="publications" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4">Publications & Patents</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <h5>Paper Title</h5>
+          <p>Publication Name, Year</p>
+          <a href="#" target="_blank">Read More</a>
+        </li>
+        <!-- Repeat for other publications -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Awards and Achievements -->
+  <section id="awards" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Awards & Achievements</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <h5>Award Name</h5>
+          <p>Issuing Organization, Year</p>
+        </li>
+        <!-- Repeat for other awards -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4">Projects</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4">
+           <div class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <p class="card-text">Brief description of the project.</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other projects -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership -->
+  <section id="membership" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Memberships</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Professional Organization 1</li>
+        <li class="list-group-item">Professional Organization 2</li>
+        <!-- Repeat for other memberships -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Research Thrust Area -->
+  <section id="research" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4">Research Thrust Areas</h2>
+      <p>Describe your primary research interests and areas of expertise.</p>
+      <ul>
+        <li>Research Area 1</li>
+        <li>Research Area 2</li>
+        <!-- Add more as needed -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- List of Events (Organized/Attended) -->
+  <section id="events" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Events Organized/Attended</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <h5>Event Name</h5>
+          <p>Date and Location</p>
+          <p>Role or participation details.</p>
+        </li>
+        <!-- Repeat for other events -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Poster/Paper Presentation -->
+  <section id="presentations" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4">Poster & Paper Presentations</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <h5>Presentation Title</h5>
+          <p>Event Name, Year</p>
+          <a href="#" target="_blank">View Presentation</a>
+        </li>
+        <!-- Repeat for other presentations -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Courses Completed -->
+  <section id="courses" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Courses Completed</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <h5>Course Name</h5>
+          <p>Platform (e.g., NPTEL, Coursera, LinkedIn Learning), Year</p>
+          <a href="#" target="_blank">Certificate</a>
+        </li>
+        <!-- Repeat for other courses -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Address -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4">Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Your message here..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+      <hr>
+      <h5>Can reach me also at:</h5>
+      <p>Email: arkaprabhade5@gmail.com</p>
+      <p>Phone:+91 8900404198</p>
+      <p>Address:New Town</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2024 Arkaprabha De. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
